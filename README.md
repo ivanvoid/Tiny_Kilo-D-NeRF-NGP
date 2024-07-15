@@ -15,6 +15,8 @@ Still WIP
 - [ ] Tiny NeRF-NGP
 - [ ] Tiny D-NeRF-NGP
 - [ ] Tiny Kilo-D-NeRF-NGP
+---
+- [ ] [Cover LIFF pose estimation](https://github.com/fyusion/llff)
 
 # Attributions
 - https://github.com/albertpumarola/D-NeRF
