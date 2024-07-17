@@ -5,6 +5,10 @@ Simple, humanly readable, COMMENTED(!) and visualised NeRF.
 Still WIP
 
 # Setup
+`python=3.9`  
+`CUDA Version: 12.2`
+
+
 
 # Run
 
