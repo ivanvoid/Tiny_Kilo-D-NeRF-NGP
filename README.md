@@ -15,7 +15,8 @@ Still WIP
 # Flags
 
 # TODO
-- [ ] Tiny NeRF
+- [x] Tiny NeRF (One image / Batch training)
+- [ ] Tiny D-NeRF 
 - [ ] Tiny NeRF-NGP
 - [ ] Tiny D-NeRF-NGP
 - [ ] Tiny Kilo-D-NeRF-NGP
