@@ -8,15 +8,28 @@ Still WIP
 `python=3.9`  
 `CUDA Version: 12.2`
 
+Create enviroment with conda or pip:
+```
+conda env create -f environment.yml
+or 
+pip install -r requirements.txt
+```
+
+## Models
+You can download pretrain models from:  
+[Google Drive](https://drive.google.com/drive/folders/1bD93brXrHU2QZ_uuXFiHMARtMg4lVdAK?usp=sharing)
 
 
 # Run
 
+
 # Flags
+
+
 
 # TODO
 - [x] Tiny NeRF (One image / Batch training)
-- [ ] Tiny D-NeRF 
+- [x] Tiny D-NeRF 
 - [ ] Tiny NeRF-NGP
 - [ ] Tiny D-NeRF-NGP
 - [ ] Tiny Kilo-D-NeRF-NGP
