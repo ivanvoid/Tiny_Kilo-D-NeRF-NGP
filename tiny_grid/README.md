@@ -15,3 +15,13 @@ Learning (RGB) form [x,y,z] coordinates.
 |Raw coodinates [x, y, z]|[x, y,z] Encoded with Frequency Encoding (sin,cos)|[x, y, z] Encoded with Multiresolution Hash|
 |-|-|-|
 |<div align="center"><img src="./results/xyz2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzHash2rgb_animation.gif" width="200"/>|
+
+### (3D NeRF) Camera projections to image reconstruction
+
+By [x,y,z] here we mean sampled points along the ray of camera projections.  
+Training for 1000 epochs, around 10 minuts.
+
+|Raw camera projections|[x, y,z] Encoded with Frequency Encoding (sin,cos)|[x, y, z] Encoded with Multiresolution Hash|Original image|
+|-|-|-|-|
+|-|<div align="center"><img src="./results/Cam_xyzFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/Cam_xyzHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/Original_image.png" width="200"/>|
+
