@@ -21,15 +21,23 @@ You can download pretrain models from:
 
 
 # Run
-
-
 # Flags
+# Notebooks descriptions
+`tiny_nerf.ipynb`:  
+- Training NeRF  
+
+`tiny_d_nerf.ipynb`:
+- Training Dynamic NeRF  
+
+`tiny_grid/tiny_simple_prediction_task.ipynb`:
+- Training FCN to predict (xy->RGB) and (xyz->RGB) wirh multiresolution hash encodings
 
 
 
 # TODO
 - [x] Tiny NeRF (One image / Batch training)
-- [x] Tiny D-NeRF 
+- [x] Tiny D-NeRF
+- [ ] Grid for NeRF (one image one view) 
 - [ ] Tiny NeRF-NGP
 - [ ] Tiny D-NeRF-NGP
 - [ ] Tiny Kilo-D-NeRF-NGP
