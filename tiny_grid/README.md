@@ -4,9 +4,9 @@
 
 ### 2D data 
 Learning (RGB) form [x,y] coordinates.
-|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |
-|-|-|-|
-|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|
+|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
+|-|-|-|-|
+|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFourier2rgb_animation.gif" width="200"/>|
 
 
 ### 3D data
