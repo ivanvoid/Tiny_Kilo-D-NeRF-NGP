@@ -16,7 +16,7 @@ Learning (RGB) form [x,y,z] coordinates.
 |-|-|-|
 |<div align="center"><img src="./results/xyz2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzHash2rgb_animation.gif" width="200"/>|
 
-### (3D NeRF) Camera projections to image reconstruction
+### (3D NeRF) Camera projections to image reconstruction ONE IMAGE ONE VIEW
 
 By [x,y,z] here we mean sampled points along the ray of camera projections.  
 Training for 1000 epochs, around 10 minuts.
@@ -25,3 +25,9 @@ Training for 1000 epochs, around 10 minuts.
 |-|-|-|-|
 |-|<div align="center"><img src="./results/Cam_xyzFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/Cam_xyzHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/Original_image.png" width="200"/>|
 
+### NeRF Original
+Reconstructing 3D volume from images and camera directions.  
+Each frame is 50 iterations.  
+|Raw camera projections|[x, y,z] Encoded with <br>Frequency Encoding (sin,cos)|[x, y, z] Encoded with<br> Multiresolution Hash|
+|-|-|-|
+|-|<div align="center"><img src="./results/xyzFREQ_2RGBA_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzHASH_2RGBA_animation.gif" width="200"/>|
