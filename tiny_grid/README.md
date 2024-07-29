@@ -4,10 +4,10 @@
 
 ### 2D data 
 Learning (RGB) form [x,y] coordinates.
-|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
-|-|-|-|-|
-|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFourier2rgb_animation.gif" width="200"/>|
-|Encoding dim: 0<br>Training time: 34 sec|Encoding dim: 254<br>Training time: 1 min|Encoding dim: 16<br>Training time: 1:35 min |Encoding dim: 256<br>Training time: 1 min|
+|Original Image|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
+|-|-|-|-|-|
+|<div align="center"><img src="../data/judi.png" width="200"/>|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFourier2rgb_animation.gif" width="200"/>|
+|-|Encoding dim: 0<br>Training time: 34 sec<br>Loss: 1.8e-2|Encoding dim: 254<br>Training time: 1 min<br>Loss: 9.2e-3|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1 min<br>Loss: 4.1e-3|
 
 ### 3D data
 Data is a "Video" (sequence of images) stacked into 3D shape.  

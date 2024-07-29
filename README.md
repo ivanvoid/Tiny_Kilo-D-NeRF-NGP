@@ -1,8 +1,22 @@
 # Tiny Kilo-D-NeRF-NGP
+**WIP**
 
 # Description
-Simple, humanly readable, COMMENTED(!) and visualised NeRF.  
-Still WIP
+Simple, humanly readable, COMMENTED(!) and visualised NeRF and it's encodings.  
+
+## Encodings Results
+You can check [Encodings results here](./tiny_grid/README.md), but here is the summary.  
+Multiresolution Hash encoding outperform all other encodings.
+
+|Original Image|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
+|-|-|-|-|-|
+|<div align="center"><img src="./data/judi.png" width="200"/>|<div align="center"><img src="./tiny_grid/results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./tiny_grid/results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./tiny_grid/results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./tiny_grid/results/xyFourier2rgb_animation.gif" width="200"/>|
+|-|Encoding dim: 0<br>Training time: 34 sec<br>Loss: 1.8e-2|Encoding dim: 254<br>Training time: 1 min<br>Loss: 9.2e-3|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1 min<br>Loss: 4.1e-3|
+
+## NeRF
+
+
+
 
 # Setup
 `python=3.9`  
