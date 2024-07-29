@@ -55,8 +55,8 @@ You can download pretrain models from:
 # TODO
 - [x] Tiny NeRF (One image / Batch training)
 - [x] Tiny D-NeRF
-- [ ] Grid for NeRF (one image one view) 
-- [ ] Tiny NeRF-NGP
+- [x] Grid for NeRF (one image one view) 
+- [x] Tiny NeRF-NGP
 - [ ] Tiny D-NeRF-NGP
 - [ ] Tiny Kilo-D-NeRF-NGP
 ---
