@@ -4,10 +4,13 @@
 
 ### 2D data 
 Learning (RGB) form [x,y] coordinates.
-|Original Image|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
-|-|-|-|-|-|
-|<div align="center"><img src="../data/judi.png" width="200"/>|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFourier2rgb_animation.gif" width="200"/>|
-|-|Encoding dim: 0<br>Training time: 34 sec<br>Loss: 1.8e-2|Encoding dim: 254<br>Training time: 1 min<br>Loss: 9.2e-3|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1 min<br>Loss: 4.1e-3|
+|Original Image|Raw coodinates: [x, y]|[x, y] Encoded with<br> Frequency Encoding (sin,cos)|
+|-|-|-|
+|<div align="center"><img src="../data/judi.png" width="200"/>|<div align="center"><img src="./results/xy2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFreq2rgb_animation.gif" width="200"/>|
+|-|Encoding dim: 0<br>Training time: 34 sec<br>Loss: 1.8e-2|Encoding dim: 254<br>Training time: 1 min<br>Loss: 9.2e-3|
+|[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features|
+|<div align="center"><img src="./results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./results/xyFourier2rgb_animation.gif" width="200"/>||
+|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1:28 min<br>Loss: 1.1e-3|
 
 ### 3D data
 Data is a "Video" (sequence of images) stacked into 3D shape.  
@@ -32,3 +35,4 @@ Each frame is 50 iterations.
 |Raw camera projections|[x, y,z] Encoded with <br>Frequency Encoding (sin,cos)|[x, y, z] Encoded with<br> Multiresolution Hash|
 |-|-|-|
 |-|<div align="center"><img src="./results/xyzFREQ_2RGBA_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzHASH_2RGBA_animation.gif" width="200"/>|
+

@@ -14,7 +14,7 @@ Multiresolution Hash encoding outperform all other encodings.
 |-|Encoding dim: 0<br>Training time: 34 sec<br>Loss: 1.8e-2|Encoding dim: 254<br>Training time: 1 min<br>Loss: 9.2e-3|
 |[x, y] Encoded with<br> Multiresolution Hash |Encoded with<br> Fourier Features||
 |<div align="center"><img src="./tiny_grid/results/xyHash2rgb_animation.gif" width="200"/>|<div align="center"><img src="./tiny_grid/results/xyFourier2rgb_animation.gif" width="200"/>|
-|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1 min<br>Loss: 4.1e-3|
+|Encoding dim: 16<br>Training time: 1:35 min<br>Loss: 4.7e-6|Encoding dim: 256<br>Training time: 1:28 min<br>Loss: 1.1e-3|
 
 
 ## NeRF
