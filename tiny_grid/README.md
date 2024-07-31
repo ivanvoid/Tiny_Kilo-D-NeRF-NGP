@@ -1,5 +1,7 @@
 # Tiny Multiresolution Hash encodings
 
+All experements could be found in `tiny_simple_prediction_task.ipynb` notebook.
+
 ## Results
 
 ### 2D data 
