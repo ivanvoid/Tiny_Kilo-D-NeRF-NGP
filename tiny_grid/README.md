@@ -36,3 +36,13 @@ Each frame is 50 iterations.
 |-|-|-|
 |-|<div align="center"><img src="./results/xyzFREQ_2RGBA_animation.gif" width="200"/>|<div align="center"><img src="./results/xyzHASH_2RGBA_animation.gif" width="200"/>|
 
+
+### Time dependend data
+
+Hash encoded coordinates and timesteps.  
+For 3D each timestep corresponds to set of 4 images at that timestep, so 3D coordinates plus time.
+
+|2D + time| 3D + time|
+|-|-|
+|<div align="center"><img src="./results/xyt2rgb_animation.gif" width="150"/>|<div align="center"><img src="./results/xyzt2rgb_animation.gif" width="300"/>|
+
